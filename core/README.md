@@ -1,6 +1,6 @@
-# quivr-core package
+# LoomAI Core
 
-The RAG of Quivr.com
+The retrieval augmented generation (RAG) engine for LoomAI.
 
 ## License 📄
 

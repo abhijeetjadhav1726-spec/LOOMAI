@@ -1,29 +1,29 @@
-# Quivr - Your Second Brain, Empowered by Generative AI
+# LoomAI - Your Second Brain, Empowered by Generative AI
 
 <div align="center">
-    <img src="./logo.png" alt="Quivr-logo" width="31%"  style="border-radius: 50%; padding-bottom: 20px"/>
+    <img src="./logo.png" alt="LoomAI-logo" width="31%"  style="border-radius: 50%; padding-bottom: 20px"/>
 </div>
 
 [![Discord Follow](https://dcbadge.vercel.app/api/server/HUpRgp2HG8?style=flat)](https://discord.gg/HUpRgp2HG8)
-[![GitHub Repo stars](https://img.shields.io/github/stars/quivrhq/quivr?style=social)](https://github.com/quivrhq/quivr)
+[![GitHub Repo stars](https://img.shields.io/github/stars/abhijeetjadhav1726-spec/LOOMAI?style=social)](https://github.com/abhijeetjadhav1726-spec/LOOMAI)
 [![Twitter Follow](https://img.shields.io/twitter/follow/StanGirard?style=social)](https://twitter.com/_StanGirard)
 
-Quivr, helps you build your second brain, utilizes the power of GenerativeAI to be your personal assistant !
+LoomAI helps you build a second brain using generative AI as a personal assistant.
 
 ## Key Features 🎯
 
 - **Opiniated RAG**: We created a RAG that is opinionated, fast and efficient so you can focus on your product
-- **LLMs**: Quivr works with any LLM, you can use it with OpenAI, Anthropic, Mistral, Gemma, etc.
-- **Any File**: Quivr works with any file, you can use it with PDF, TXT, Markdown, etc and even add your own parsers.
-- **Customize your RAG**: Quivr allows you to customize your RAG, add internet search, add tools, etc.
-- **Integrations with Megaparse**: Quivr works with [Megaparse](https://github.com/quivrhq/megaparse), so you can ingest your files with Megaparse and use the RAG with Quivr.
+- **LLMs**: LoomAI works with any LLM, you can use it with OpenAI, Anthropic, Mistral, Gemma, etc.
+- **Any File**: LoomAI works with any file, you can use it with PDF, TXT, Markdown, etc and even add your own parsers.
+- **Customize your RAG**: LoomAI allows you to customize your RAG, add internet search, add tools, etc.
+- **Integrations with Megaparse**: LoomAI works with [Megaparse](https://github.com/quivrhq/megaparse), so you can ingest your files with Megaparse and use the RAG with LoomAI.
 
 >We take care of the RAG so you can focus on your product. Simply install quivr-core and add it to your project. You can now ingest your files and ask questions.*
 
 **We will be improving the RAG and adding more features, stay tuned!**
 
 
-This is the core of Quivr, the brain of Quivr.com.
+This is the LoomAI core engine.
 
 <!-- ## Demo Highlight 🎥
 
@@ -91,7 +91,7 @@ import os
 os.environ["OPENAI_API_KEY"] = "myopenai_apikey"
 
 ```
-Quivr supports APIs from Anthropic, OpenAI, and Mistral. It also supports local models using Ollama.
+LoomAI supports APIs from Anthropic, OpenAI, and Mistral. It also supports local models using Ollama.
 
 1. Create the YAML file ``basic_rag_workflow.yaml`` and copy the following content in it
 ```yaml
@@ -175,7 +175,7 @@ while True:
 
     answer = brain.ask(question, retrieval_config=retrieval_config)
     # Print the answer with typing effect
-    console.print(f"[bold green]Quivr Assistant[/bold green]: {answer.answer}")
+    console.print(f"[bold green]LoomAI Assistant[/bold green]: {answer.answer}")
 
     console.print("-" * console.width)
 
@@ -186,23 +186,23 @@ brain.print_info()
 
 ## Go further
 
-You can go further with Quivr by adding internet search, adding tools, etc. Check the [documentation](https://core.quivr.com/) for more information.
+You can go further with LoomAI by adding internet search, adding tools, etc. Check the [documentation](https://core.quivr.com/) for more information.
 
 
 ## Contributors ✨
 
 Thanks go to these wonderful people:
-<a href="https://github.com/quivrhq/quivr/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=quivrhq/quivr" />
+<a href="https://github.com/abhijeetjadhav1726-spec/LOOMAI/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=abhijeetjadhav1726-spec/LOOMAI" />
 </a>
 
 ## Contribute 🤝
 
 Did you get a pull request? Open it, and we'll review it as soon as possible. Check out our project board [here](https://github.com/users/StanGirard/projects/5) to see what we're currently focused on, and feel free to bring your fresh ideas to the table!
 
-- [Open Issues](https://github.com/quivrhq/quivr/issues)
-- [Open Pull Requests](https://github.com/quivrhq/quivr/pulls)
-- [Good First Issues](https://github.com/quivrhq/quivr/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+- [Open Issues](https://github.com/abhijeetjadhav1726-spec/LOOMAI/issues)
+- [Open Pull Requests](https://github.com/abhijeetjadhav1726-spec/LOOMAI/pulls)
+- [Good First Issues](https://github.com/abhijeetjadhav1726-spec/LOOMAI/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 
 ## Partners ❤️
 

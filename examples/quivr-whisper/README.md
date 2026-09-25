@@ -1,6 +1,6 @@
-# Quivr-Whisper
+# LoomAI Whisper Example
 
-Quivr-Whisper is a web application that allows users to ask questions via audio input. It leverages OpenAI's Whisper model for speech transcription and synthesizes responses using OpenAI's text-to-speech capabilities. The application queries the Quivr API to get a response based on the transcribed audio input.
+LoomAI Whisper is a web application that allows users to ask questions via audio input. It leverages OpenAI's Whisper model for speech transcription and synthesizes responses using OpenAI's text-to-speech capabilities. The application queries the LoomAI API to get a response based on the transcribed audio input.
 
 
 
@@ -12,7 +12,7 @@ https://github.com/StanGirard/quivr-whisper/assets/19614572/9cc270c9-07e4-4ce1-b
 
 - Audio input for asking questions
 - Speech transcription using OpenAI's Whisper model
-- Integration with Quivr API for intelligent responses
+- Integration with LoomAI API for intelligent responses
 - Speech synthesis of the response for audio playback
 
 ## Getting Started
@@ -36,7 +36,7 @@ A step by step series of examples that tell you how to get a development environ
 1. Clone the repository to your local machine.
 ```bash
 git clone https://github.com/stangirard/quivr-whisper.git
-cd Quivr-talk
+cd quivr-whisper
 ```
 
 2. Install the required packages.
@@ -62,4 +62,4 @@ Your app should now be running on `http://localhost:5000`.
 
 ## Usage
 
-To use Quivr-talk, navigate to `http://localhost:5000` in your web browser, click on "Ask a question to Quivr", and record your question. Wait for the transcription and response to be synthesized, and you will hear the response played back to you.
+To use the LoomAI Whisper app, navigate to `http://localhost:5000` in your web browser, click on "Ask a question to LoomAI", and record your question. Wait for the transcription and response to be synthesized, and you will hear the response played back to you.
